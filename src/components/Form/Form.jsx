@@ -10,13 +10,17 @@ const Form = ({ setlistTransactions }) => {
     const handleSubmit = (event) => {
         event.preventDefault()
 
+        let newValue = Number(value)
+
         if(type === "saída") {
-            setValue(0 - Number(value))
+            newValue = -newValue
         }
-        setlistTransactions((previousTransaction) => 
-        
-            [...previousTransaction, {description, value, type}]
-        )
+
+        setlistTransactions((previousTransaction) => [
+            ...previousTransaction, 
+            {description, value: newValue, type}
+        ])
+
         setDescription("")
         setValue("")
         setType("-")
