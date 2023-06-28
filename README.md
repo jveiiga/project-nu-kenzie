@@ -2,7 +2,7 @@
 <p align="center">
   <img alt="Imagem ilustrativa" src="https://blog.nubank.com.br/wp-content/uploads/2021/10/BLOG_CRIANC%CC%A7AS_Header-certo.jpg?w=1024" width="100%" height="300"/>
 </p>
-<h4>Projeto criado com o intuito de demonstrar minhas habilidades na criação de projetos utilizando React, useState, props, componentização e renderização condicional. Além disso o estilo apresentado é uma combinação de técnicas e convenções comuns em CSS</h4>
+<h4>Projeto criado com o intuito de demonstrar minhas habilidades na criação de projetos utilizando React, useState, props e renderização condicional. Além disso o estilo apresentado é uma combinação de técnicas e convenções comuns em CSS</h4>
 
 ## 📺 Imagem
 
